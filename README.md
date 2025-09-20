@@ -40,6 +40,5 @@ This is a simple **Spring Boot CRUD application** with REST API.
    }
 ## Screenshots
 
-# 1. Get All Items
-[Get Items](![postman-PGPD.png](../ss/postman-PGPD.png))
+![Postman Screenshot](ss/postman-PGPD.png)
 
