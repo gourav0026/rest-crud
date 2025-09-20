@@ -1,0 +1,24 @@
+### Get all items
+GET http://localhost:8081/items
+Accept: application/json
+
+### Add a new item (POST)
+POST http://localhost:8081/items
+Content-Type: application/json
+
+{
+  "name": "Pen",
+  "price": 20.5
+}
+
+### Update an existing item (PUT)
+PUT http://localhost:8081/items/1
+Content-Type: application/json
+
+{
+  "name": "Book - Updated",
+  "price": 120.0
+}
+
+### Delete an item (DELETE)
+DELETE http://localhost:8081/items/1
